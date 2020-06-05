@@ -1,0 +1,3 @@
+az webapp deployment source config-zip --resource-group rg-mgreen-signalr-dev --name as-mgreen-signalr-backend-dev --src backend.zip
+az webapp deployment source config-zip --resource-group rg-mgreen-signalr-dev --name as-mgreen-signalr-frontend-dev --src frontend.zip
+credit: https://github.com/AARNOLD87/SignalRWithAngular  
